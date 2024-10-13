@@ -41,7 +41,7 @@
 
         .sidebar {
             width: 300px; /* Largura da imagem lateral */
-            margin: 20px; /* Espaçamento ao redor da imagem lateral */
+            margin: 0px; /* Espaçamento ao redor da imagem lateral */
         }
 
         img {
@@ -52,6 +52,10 @@
         .banner h1 {
             margin: 0;
             font-size: 3em;
+        }
+
+        .container {
+            display: flex; /* Define um layout flexível */
         }
 
         .content {
@@ -84,32 +88,36 @@
     </style>
 </head>
 <body>
-    <div class="banner">
-        <div class="banner-text">
-            Inomeável Sabedoria
+    <header>
+        <div class="banner">
+            <div class="banner-text">
+                Inomeável Sabedoria
+            </div>
         </div>
-    </div>
-
-    <div class="sidebar">
-        <img src="imgs/TTKCap1.jpeg" alt="Imagem Lateral">
-    </div>
-
-    <div class="content">
-        <blockquote>
-            "O Tao que pode ser expresso não é o Tao verdadeiro<br>
-            Podem-se atribuir-lhe nomes, mas não são o Nome Verdadeiro.<br>
-            Sem nome é a origem do Céu e da Terra.<br>
-            Com nome é a mãe de todas as coisas.<br>
-            Não sendo, podemos contemplar sua essência.<br>
-            Sendo, apenas vemos sua aparência.<br>
-            Ser e não ser emanam da mesma fonte, ainda que tenham nomes diferentes.<br>
-            Ambos são um mistério.<br>
-            E nesse mistério está a porta para toda a maravilha"<br>
-            – Lao Tse - Tao Teh King - Capítulo 1
-        </blockquote>
-        <p>
-            Este site é dedicado àqueles que buscam a verdadeira sabedoria - uma busca sincera sobre o verdadeiro caminho, além de qualquer tradição religiosa. Na jornada pela iluminação, apresento ideias provenientes de diversas fontes confiáveis, que promovem a reflexão sobre a busca pelo conhecimento. Um caminho possível e acessível a todos.
-        </p>
+    </header>
+    
+    <div class="container">
+        <div class="sidebar">
+            <img src="imgs/TTKCap1.jpeg" alt="Imagem Lateral">
+        </div>
+    
+        <div class="content">
+            <blockquote>
+                "O Tao que pode ser expresso não é o Tao verdadeiro<br>
+                Podem-se atribuir-lhe nomes, mas não são o Nome Verdadeiro.<br>
+                Sem nome é a origem do Céu e da Terra.<br>
+                Com nome é a mãe de todas as coisas.<br>
+                Não sendo, podemos contemplar sua essência.<br>
+                Sendo, apenas vemos sua aparência.<br>
+                Ser e não ser emanam da mesma fonte, ainda que tenham nomes diferentes.<br>
+                Ambos são um mistério.<br>
+                E nesse mistério está a porta para toda a maravilha"<br>
+                – Lao Tse - Tao Teh King - Capítulo 1
+            </blockquote>
+            <p>
+                Este site é dedicado àqueles que buscam a verdadeira sabedoria - uma busca sincera sobre o verdadeiro caminho, além de qualquer tradição religiosa. Na jornada pela iluminação, apresento ideias provenientes de diversas fontes confiáveis, que promovem a reflexão sobre a busca pelo conhecimento. Um caminho possível e acessível a todos.
+            </p>
+        </div>
     </div>
 
     <footer>
